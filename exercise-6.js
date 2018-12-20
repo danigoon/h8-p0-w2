@@ -1,6 +1,6 @@
----------------------------------------
-1. Melakukan Looping Menggunakan While|
----------------------------------------
+//---------------------------------------
+//1. Melakukan Looping Menggunakan While|
+//---------------------------------------
 
 //LOOPING PERTAMA
 console.log('LOOPING PERTAMA');
@@ -18,9 +18,9 @@ while(i > 0){
   i-= 2;
 }
 
--------------------------------------
-2. Melakukan Looping Menggunakan For|
--------------------------------------
+//-------------------------------------
+//2. Melakukan Looping Menggunakan For|
+//-------------------------------------
 
 //LOOPING PERTAMA
 console.log('LOOPING PERTAMA');
@@ -33,9 +33,9 @@ for (var i = 20;i > 0;i--){
   console.log(i + ' - ' + 'I will become fullstack developer');
 }
 
---------------------------
-3. Angka Ganjil dan Genap|
---------------------------
+//--------------------------
+//3. Angka Ganjil dan Genap|
+//--------------------------
 
 //LOOPING GANJIL-GENAP
 for (var i= 1;i <= 100;i++){
