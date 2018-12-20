@@ -1,0 +1,56 @@
+-----------------------
+1. Newton Second Law. |
+-----------------------
+STORE "mass" with value 600.
+STORE "acceleration" with value 2.
+STORE "resultant" without any value.
+
+CALCULATE "Mass" multiplied by "acceleration"
+SET "resultant" equal to calculation result.
+
+DISPLAY "resultant"
+
+------------------
+2. Tahun Kabisat.|
+------------------
+
+READ and SAVE "tahun"
+
+IF "year" modulus 4 equal to 0 and "year" modulus 100 not equal to 0
+  then
+       DISPLAY "leap year."
+IF "tahun" modulus 4 equal to 0 and "year" modulus 100 equal to 0 and "year" modulus 400 equal to 0
+  then
+       DISPLAY "leap year"
+ELSE
+  then
+       DISPLAY "not leap year"
+
+----------------
+3. Laundry Day.|
+----------------
+
+STORE "number of cloth" with value 20
+
+while "number of cloth" greater than 0
+    DO "put a cloth in the machine"
+    SUBTRACT "number of cloth" by 1
+
+DO "Start the machine!"
+
+-----------------
+4. Periksa Kuku.|
+-----------------
+
+STORE "student" with value 40
+
+WHILE "student" greater than 0
+    DO "check student nail."
+        IF "student" has long nail
+            then
+                DO "punish student"
+        ELSE
+            then
+                DO "compliment student"
+
+    SUBTRACT "student" by 1
