@@ -2,7 +2,7 @@
 //switch-case|
 --------------
 var tanggal = 31; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
-var bulan = 16; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
+var bulan = 12; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
 var tahun = 1986; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
 switch (bulan){
